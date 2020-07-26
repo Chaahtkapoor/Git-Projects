@@ -40,11 +40,6 @@ for i in range (1, n+1):
     sum = sum +(1/i)
 print ("The sum of series is", round(sum,2))    
 #%%
-import calendar
-yy= int(input("Enter year"))
-mm = int (input("Enter month"))
-print(calendar.month(yy,mm))
-#%%
 rows= int (input("Enter your number"))
 for i in range (1,rows+1):
     for j in range (1, 1+i):
